@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+  }
+  
+  body {
+    margin-top: 10%;
+    background: #012E4A;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .App {
+    display: flex;
+  }
+  
+  .board {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: #378BA4;
+    margin: .5rem;
+    text-align: center;
+    padding-top: 20px;
+    color: #E8EDE7;    
+    border-radius: 30px;
+  }
+
+  .item{
+    font-size: 25px;
+  }
+
+.x{
+  color: rgb(225, 122, 122);
+}
+
+input{
+  border-radius: 20px;
+  background-color: #378BA4;
+  color: #E8EDE7;
+  padding: 5px;
+}
+
+::placeholder{
+  padding: 10px;
+  color: #E8EDE7;
+}
